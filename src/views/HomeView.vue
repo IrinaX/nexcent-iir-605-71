@@ -4,7 +4,7 @@ import VClients from '../components/VClients.vue'
 import VManage from '../components/VManage.vue'
 import VAchievements from '../components/VAchievements.vue'
 import VCustomer from '../components/VCustomer.vue'
-import VCta from '../components/VCta.vue'
+// import VCta from '../components/VCta.vue'
 </script>
 
 <template>
@@ -14,6 +14,6 @@ import VCta from '../components/VCta.vue'
     <VManage />
     <VAchievements />
     <VCustomer />
-    <VCta />
+    <!-- <VCta /> -->
   </main>
 </template>

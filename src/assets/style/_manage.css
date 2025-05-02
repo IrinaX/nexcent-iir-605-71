@@ -1,9 +1,5 @@
-@use "variables" as *;
 .manage {
     padding: 50px 0;
-    @media (max-width: $breakpoint-md) {
-        padding: 40px 0;
-    }
 }
 
 .manage h2 {
@@ -17,25 +13,14 @@
 
 .manage__cards {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 24px;
-    @media (max-width: $breakpoint-lg) {
-        gap: 12px;
-    }
-    @media (max-width: $breakpoint-md) {
-        flex-direction: column;
-        width: 400px;
-        margin: 0 auto;
-        gap: 16px;
-    }
-    @media (max-width: $breakpoint-sm) {
-        width: 100%;
-    }
 }
 
 .manage__card {
     border-radius: 8px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 0 35px rgba(171, 190, 209, 0.2);
     padding: 28px;
     display: flex;
     flex-direction: column;
@@ -51,18 +36,6 @@
         font-size: 14px;
         line-height: 20px;
     }
-
-    @media (max-width: $breakpoint-xl) {
-        justify-content: space-around;
-    }
-
-    @media (max-width: $breakpoint-lg) {
-        padding: 16px;
-    }
-    @media (max-width: $breakpoint-md) {
-        padding: 28px;
-    }
-
 }
 
 .manage__card-icon {

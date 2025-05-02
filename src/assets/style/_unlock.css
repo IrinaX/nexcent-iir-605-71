@@ -1,0 +1,19 @@
+.unlock {
+    padding: 50px 0;
+
+    h2 {
+        margin-bottom: 16px;
+    }
+
+    p {
+        margin-bottom: 32px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/*.unlock__content {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    gap: 37px;*/
+/*}*/

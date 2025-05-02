@@ -1,0 +1,20 @@
+.desktop-navigation {
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desktop-navigation__list {
+    display: flex;
+    gap: 50px;
+}
+
+.desktop-navigation__list-element_active {
+    font-weight: 500;
+}
+
+.desktop-navigation__buttons {
+    display: flex;
+    gap: 14px;
+}

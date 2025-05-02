@@ -1,4 +1,4 @@
-import '@/assets/style/style.scss'
+import '@/assets/style/style.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -10,6 +10,7 @@ app.use(router)
 
 app.mount('#app')
 
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 // открытие \ закрытие навиграции
 const buttonMenu = document.querySelector('.mobile-navigation__header-button')
 const mobileNavigation = document.querySelector('.mobile-navigation')

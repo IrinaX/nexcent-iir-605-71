@@ -1,0 +1,35 @@
+.achievements {
+    padding: 60px 0;
+    margin: 50px 0;
+    background-color: #F5F7FA;
+}
+
+.achievements__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.achievements__content-header {
+    p {
+        color: #18191F;
+    }
+}
+
+.achievements__content-group {
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    column-gap: 24px;
+    row-gap: 40px;
+}
+
+.achievements__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    h3 {
+        color: #4D4D4D;
+        margin-bottom: 0;
+    }
+}
